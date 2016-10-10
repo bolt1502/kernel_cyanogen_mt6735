@@ -90,6 +90,7 @@ obj-$(CONFIG_MTK_LCM) += lcm/
 obj-y += ext_disp/
 obj-$(CONFIG_MTK_HDMI_SUPPORT) += hdmi/
 obj-$(CONFIG_MTK_FB) += video/
+obj-$(CONFIG_MTK_GPU-720MP2_SUPPORT) += gpu720mp2/
 obj-$(CONFIG_MTK_GPU_SUPPORT) += gpu/
 ifneq ($(CONFIG_MTK_PLATFORM), "mt2701")
 obj-$(CONFIG_MTK_SMI_EXT)	+= smi/
